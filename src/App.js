@@ -15,7 +15,7 @@ import PostsPage from "./components/PostsContainer/PostsPage";
 import Comment from "./components/CommentSection/Comment";
 import CommentInput from "./components/CommentSection/CommentInput";
 import CommentSectionContainer from "./components/CommentSection/CommentSectionContainer";
-import  SearchBarContainer from "./components/SearchBar/SearchBarContainer";
+import SearchBarContainer from "./components/SearchBar/SearchBarContainer";
 
 
 
@@ -26,13 +26,14 @@ const App = () => {
     <div className="App">
       {/* Add imported components here to render them */}
       <LikeSection />
+      <SearchBarContainer/>
       <PostHeader />
       <PostsPage />
       {/*<Posts />*/}
       {/*<Comment /> */}
       <CommentInput />
       <CommentSectionContainer />
-      <SearchBarContainer />
+      
 
       
     </div>
