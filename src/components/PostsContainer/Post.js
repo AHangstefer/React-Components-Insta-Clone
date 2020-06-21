@@ -1,5 +1,5 @@
 // You will add code in this file
-import React from "react";
+import React, {useState} from "react";
 import CommentSection from "../CommentSection/CommentSectionContainer";
 import LikeSection from "./LikeSection";
 import PostHeader from "./PostHeader";
@@ -8,7 +8,12 @@ import "./Posts.css";
 
 // pass props in this file to
 const Post = props => {
+  console.log ("Props from Post.js", props);
   // set up state for the likes
+  const [points, setPoints] = useState(props.post.likes);
+  const incrementPoints = () =>{
+    setPoints(points + 1);
+  }
 
   return (
     <div className="post-border">
@@ -25,7 +30,9 @@ const Post = props => {
           src={props.post.imageUrl}
         />
       </div>
-      <LikeSection />
+      <LikeSection
+       incrementPoints = {incrementPoints} points = {points}
+       />
       <CommentSection
         postId={props.post.imageUrl}
         comments={props.post.comments}

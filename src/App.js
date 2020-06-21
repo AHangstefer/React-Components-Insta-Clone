@@ -8,7 +8,7 @@ import React from "react";
 import "./App.css";
 /* import the PostsPage and SearchBar and add them to the App */
 import LikeSection from "./components/PostsContainer/LikeSection";
-import Post from "./components/PostsContainer/Post";
+//import Post from "./components/PostsContainer/Post";
 import PostHeader from "./components/PostsContainer/PostHeader";
 import PostsPage from "./components/PostsContainer/PostsPage";
 //import Posts from "./components/PostsContainer/Posts";
@@ -28,8 +28,8 @@ const App = () => {
       <LikeSection />
       <PostHeader />
       <PostsPage />
-      {/* <Posts />*/}
-     {/* <Comment /> */}
+      {/*<Posts />*/}
+      {/*<Comment /> */}
       <CommentInput />
       <CommentSectionContainer />
       <SearchBarContainer />

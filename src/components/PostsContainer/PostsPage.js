@@ -3,7 +3,10 @@
 import React, {useState} from "react";
 import Post from "./Post";
 import "./Posts.css";
+//import PostHeader from  "./PostHeader";
 import dummyData from "../../dummy-data.js";
+//import LikeSection from "./LikeSection";
+//import CommentSectionContainer from "../CommentSection/CommentSectionContainer.js";
 // import data 
 //src\components\PostsContainer\PostsPage.js
 
@@ -20,5 +23,6 @@ const PostsPage = () => {
     </div>
   );
 };
+
 
 export default PostsPage;
