@@ -24,7 +24,7 @@ const LikeSection = props => {
           <FontAwesomeIcon icon={faComment} />
         </div>
       </div>
-      <p className="like-number">{props.points}</p>
+      <p className="like-number"> Likes {props.points}</p>
     </div>
   )
 };

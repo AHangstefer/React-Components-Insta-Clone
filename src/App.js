@@ -25,14 +25,13 @@ const App = () => {
   return (
     <div className="App">
       {/* Add imported components here to render them */}
-      <LikeSection />
       <SearchBarContainer/>
-      <PostHeader />
       <PostsPage />
       {/*<Posts />*/}
       {/*<Comment /> */}
-      <CommentInput />
-      <CommentSectionContainer />
+  
+      {/* <CommentSectionContainer />
+      <LikeSection /> */}
       
 
       
