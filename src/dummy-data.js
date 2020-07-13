@@ -44,6 +44,31 @@ const dummyData = [
                 text: "It that injustice"
             }
         ]
+    },
+    {
+        username: "Ch-Ch-Charlie",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://media.istockphoto.com/photos/four-lego-workers-minifigures-picture-id534208198?k=6&m=534208198&s=612x612&w=0&h=dyaDXWlcfCMZOok7I_lr0MPlrYo4-S5DrPWj0PUgOdg=',
+        likes: 56,
+        timestamp: "July 20th 2017, 03:30:09 pm",
+        comments: [
+            {
+                username: "stitches",
+                text: "Aww! I loved legos growing up"
+            },
+            {
+                username: "craxyMichael",
+                text: "Working legos...cool"
+            },
+            {
+                username: "themexicanfootman",
+                text: "What a setup"
+            },
+            {
+                username: "trolling_troll",
+                text: "great."
+            }
+        ]
     }
 ];
 

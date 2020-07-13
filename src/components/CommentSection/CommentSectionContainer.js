@@ -8,6 +8,8 @@ import "./Comment.css";
 
 const CommentSection = props => {
    const [comments] =useState(props.comments);
+   const [newComments] =useState([]);
+
    console.log ("Comment section container", comments);
    
    // Add state for the comments
@@ -22,7 +24,7 @@ const CommentSection = props => {
     
 
       {/* map through the comments data and return the Comment component */}
-      <CommentInput />
+      <CommentInput newComments ={newComments} />
       
 
       </div>
